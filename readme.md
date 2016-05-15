@@ -10,8 +10,8 @@
 
 
 >HTML Syntax
-```html
 
+```html
 <div id="slider">
 	<div slider="slide" class="sliding" style="display: block; opacity: 0.194256;"> 
 			<div class="slider_box"></svg>
