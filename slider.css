@@ -1,0 +1,27 @@
+#slider .sliding{
+		width: inherit;
+		height:inherit;
+		position: absolute;
+		top:0;
+		
+		left:0;
+		
+	}
+	#slider .sliding img{
+		width: inherit;
+		height: inherit;
+	}
+
+
+.slider_box  {
+	width:200px;
+	min-height:20px;
+	background-color: #f7f6f1;
+	position: absolute;
+	color:#1a94fb;
+	bottom: 30px;
+	right: 30px;
+	padding: 15px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
