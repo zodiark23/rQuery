@@ -1,12 +1,15 @@
 ## rQuery
 
-`Developed by **Reyan Celestial Tropia**
+>Developed by **Reyan Celestial Tropia**
 
 
 
-### Slider Class
-`HTML
+### Slider Javascript Class
+> This class will transform the div into a slider. Just add the css and rQuery script and you're good to go.
+> *Future Update: Remove the css file and add it into the javascript to make it easier to use.*
 
+
+>HTML Syntax
 ```html
 
 <div id="slider">
@@ -26,9 +29,7 @@
 
 </div>
 ```
-
-
-`Javascript
+>Javascript Syntax
 ```javascript
 $("#slider").slider(3500);
 //Note: the Id must be parent of the sliders
