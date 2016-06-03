@@ -6,7 +6,7 @@
 
 ### Quicksearch Function
 
-> Transform the textbox into a client driven search bar. This plugin will search for the class on each <tr>
+> Transform the textboxes into a client driven search bar. This plugin will search for the class on each <tr>
 
 > HTML
 
