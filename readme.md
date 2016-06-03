@@ -1,6 +1,35 @@
 ## rQuery
 
 >Developed by **Reyan Celestial Tropia**
+>Dependent on *Jquery*
+
+
+### Quicksearch Function
+
+> Transform the textbox into a client driven search bar. This plugin will search for the class on each <tr>
+
+> HTML
+
+```html
+
+<input type='text' id="quicksearch" placeholder="Search Here" />
+
+<table>
+	<tr class='search_index'><td>Value here</td><td>Value here</td></tr>
+	<tr class='search_index'><td>Value here</td><td>Value here</td></tr>
+	<tr class='search_index'><td>Value here</td><td>Value here</td></tr>
+	<tr class='search_index'><td>Value here</td><td>Value here</td></tr>
+</table>
+
+```
+
+```javascript
+
+$("#quicksearch").quicksearch(".search_index");
+//Note: The parameter on quicksearch must be a class of the index you're searching for.
+
+
+```
 
 
 
@@ -35,6 +64,8 @@ $("#slider").slider(3500);
 //Note: the Id must be parent of the sliders
 
 ```
+
+
 
 
 
